@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <section class="start container">
+    <div class="start__desr">
+      <h1 class="start__title">
+        Learn to code by watching others
+      </h1>
+      <p class="srtart__text">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+      </p>
+    </div>
+    <div class="start__form">
+      <a class="start__form-link" href="#">Try it free 7 days <span>then $20/mo. thereafter</span> </a>
+      <form action="#" class="form"novalidate>
+        <input type="text" class="form__input form__input--name" placeholder="First Name" required> 
+        <input type="text" class="form__input form__input--last-name" placeholder="Last Name" required>
+        <input type="email" class="form__input form__input--email" placeholder="Email Address" required>
+        <input type="password" class="form__input form__input--password" placeholder="Password" required>
+        <button class="form__button" type="submit">Claim your free trial  </button>
+        <p class="form__text">
+           By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+        </p>
+      </form>
+    </div>
+  </section>
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/hickkick" target="_blank">Roman Oli</a>.
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
